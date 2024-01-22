@@ -54,7 +54,7 @@ loss
 
 ---
 
-average loss (100개의 few shot task를 평균내서 나오는 loss)
+1. average loss (100개의 few shot task를 평균내서 나오는 loss)
 
 K = 10 (few shot data: 10)
 
@@ -66,6 +66,8 @@ K = 20
 
 
 ---
+
+2. initial point (적용해서 pretrained 보다 더 낮은 loss를 보여줌)
 
 Meta learning test (K = 10)
 
@@ -81,4 +83,47 @@ Meta learning test (K = 20)
 
 ---
 
+# Performance
+
+성능 비교: 비교 대상군
+
+## data 배치
+
+task 별 data 크기가 다름 -> sequence data 특징을 batch size로 자를 수 없으니 (padding or elimination)
+
+dataset -> shuffle (x) -> 섞이면 안 됨
+
+train set과 test set이 independent (random으로 task를 선택)
+
+Test를 두 가지로 생각가능 ==> (random initial point) / tradeoff
+
+= Test (Few shot (10 ~ 20) / Task (xxxx ~ 10974))
+
+<br>
+<br>
+
+이론적으로 Meta Learning 시킨 것이 Fewshot Learning 할 때 
+
+result 1 (dataset: fewshot)
+
+비교군 (No Meta-learning)보다 더 빠른 시간내에 학습의 정확도는 높고 loss는 작은 결과를 도출할 수 있음
+
+(성능이 많이 떨어질 것으로 예상) -> dataset이 작기 때문에
+
+result 2 (dataset: fewshot)
+
+random initial point를 조정해서 loss 줄이는 것을 확인
+
+result 3 (dataset: batchsize)
+
+trade off 경계 생각 
+  -> 적은 dataset으로 정확도를 ~ 이 정도 손해보면서 사용가능하다.
+
+정확도는 confusion matrix에서 (TP + TN) sample 개수로 생각
+
+result 4 (dataset: batchsize)
+
+속도 차이가 많이 날지는 모르겠는데 loss를 빨리 떨어지는 것을 비교 
+
+(MAML 적용 시킨 것을 비교) -> TASK (10974) -> 여러 testset을 적용시켜서 평균 시간을 구하는게 나을듯
 
