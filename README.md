@@ -1,3 +1,11 @@
+# Few shot Learning
+
+Few shot learning은 10개 미만의 한정된 샘플로부터 학습할 수 있는 머신러닝 방법론을 의미합니다.
+
+--> Meta Learning, Transfer Learning
+
+---
+
 # MetaLearning
 
 meta learning complete
