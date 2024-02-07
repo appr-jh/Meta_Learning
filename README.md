@@ -109,11 +109,11 @@ Test를 두 가지로 생각가능 ==> (random initial point) / tradeoff
 
   (성능이 많이 떨어질 것으로 예상) -> dataset이 작기 때문에
 
-- result 2 (dataset: fewshot)
+- result 2 (dataset: fewshot) --- (o) 생각보다 성공적
 
   random initial point를 조정해서 loss 줄이는 것을 확인
 
-- result 3 (dataset: batchsize)
+- result 3 (dataset: batchsize) --- (x) 생각보다 별로
 
   trade off 경계 생각 
     -> 적은 dataset으로 정확도를 ~ 이 정도 손해보면서 사용가능하다.
