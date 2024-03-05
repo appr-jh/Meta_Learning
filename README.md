@@ -85,6 +85,22 @@ Meta learning test (K = 20)
 <img src="https://github.com/appr-jh/Meta_Learning/assets/100187238/3cf9b1d0-4452-4022-b454-0d5e7f99f28a" width="800" height="700">
 
 ---
+<br>
+<br>
+
+Meta Learning 적용
+![image](https://github.com/appr-jh/Meta_Learning/assets/100187238/f54f39b4-ef7b-4a7a-a4ae-0e0a09a3dcb4)
+
+
+<br>
+<br>
+
+Meta Learning 적용 x
+![image](https://github.com/appr-jh/Meta_Learning/assets/100187238/bffb3860-94d1-4205-ad06-7f817ce6a0bc)
+
+<br>
+<br>
+---
 
 # Performance
 
