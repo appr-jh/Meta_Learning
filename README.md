@@ -12,11 +12,11 @@ Few shot learning은 10개 미만의 한정된 샘플로부터 학습할 수 있
 # Meta Learning
 
 meta learning complete
-
+<!--
 <img src="https://github.com/appr-jh/Meta_Learning/assets/100187238/08a0288e-3710-4ac9-9d81-5132b85a3a40" width="200" height="100">
 
 <img src="https://github.com/appr-jh/Meta_Learning/assets/100187238/3f011817-d10e-4b67-8816-1470a6bbac65" width="600" height="200">
-
+-->
 
 weight (0~5)
 
@@ -51,7 +51,7 @@ Few-Shot Dataset (Batch size: 5, 10)
 ## Result
 
 Fewshot Learning -> apply the meta-learning
-
+<!--
 loss
 ![image](https://github.com/appr-jh/Meta_Learning/assets/100187238/9671be1f-a80c-4a1c-b408-aaba29773bbd)
 
@@ -66,14 +66,14 @@ K = 10 (few shot data: 10)
 K = 20 
 
 <img src="https://github.com/appr-jh/Meta_Learning/assets/100187238/5d659fa5-125e-4f99-bac6-331f9d925d56" width="400" height="300">
-
+-->
 
 ---
 
 2. initial point (적용해서 pretrained 보다 더 낮은 loss를 보여줌)
 
 Meta learning test (K = 10)
-
+<!--
 <img src="https://github.com/appr-jh/Meta_Learning/assets/100187238/1587ad55-f430-4979-96ad-d236cda20dfd" width="800" height="700">
 
 
@@ -97,7 +97,7 @@ Meta Learning 적용
 
 Meta Learning 적용 x
 ![image](https://github.com/appr-jh/Meta_Learning/assets/100187238/bffb3860-94d1-4205-ad06-7f817ce6a0bc)
-
+-->
 <br>
 <br>
 ---
